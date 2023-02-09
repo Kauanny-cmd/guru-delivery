@@ -53,13 +53,14 @@ const Login = ({ navigation }) => {
                         <View style={{ flexDirection: 'row', justifyContent: 'center', padding: 10 }}>
                             <Text style={{ fontSize: 16, color: Colors.blackColor }}>Esqueceu sua senha?</Text>
                             <Button style={{ margin: 3 }} title="Clique aqui" link
-                                onPress={() => navigation.navigate('Login')}
+                                onPress={() => navigation.navigate('ForgetPassword')}
                             />
                         </View>
-                        <View style={{alignItems:'center'}}>
+                        <View style={{ alignItems: 'center' }}>
                             <Image source={Linha} style={{ marginBottom: 40 }} />
                         </View>
                         <Button title="Quero me cadastrar"
+                            onPress={() => navigation.navigate('Register')}
                             colorButton={Colors.whiteColor}
                             colorText={Colors.primaryColor}
                             colorBorder={Colors.primaryColor}
