@@ -11,7 +11,7 @@ import Colors from "../../global/style";
 
 const Product = ({ navigation }) => {
 
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState(1);
     const mais = () => setCount(prevCount => prevCount + 1);
     const menos = () => setCount(prevCount => prevCount - 1);
 
@@ -100,12 +100,9 @@ const Product = ({ navigation }) => {
                         colorButton={Colors.primaryColor}
                         colorText={Colors.whiteColor}
                         onPress={() => navigation.navigate('Bag')} />
-
                 </View>
-
             </View>
         </>
-
     );
 }
 export default Product
