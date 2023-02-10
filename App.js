@@ -1,13 +1,13 @@
-import { StyleSheet, StatusBar, View } from 'react-native';
+import { StatusBar } from 'react-native';
 import { NavigationContainer } from "@react-navigation/native";
 
-import StackNavigator from './src/routes/stackNavigator'
+import AuthNavigator from './src/routes/authNavigator'
 
 export default function App() {
   return (
     <NavigationContainer>
-        <StackNavigator />
-        <StatusBar style="auto" />
+      <AuthNavigator />
+      <StatusBar style="auto" />
     </NavigationContainer>
   );
 }
