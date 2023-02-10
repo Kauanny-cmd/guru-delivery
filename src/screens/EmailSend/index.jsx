@@ -11,8 +11,7 @@ import Email from '../../../assets/email.png';
 
 const EmailSend = ({ navigation }) => {
     return (
-
-        <Container>
+        <Container backgroundColor={'#F8F9FA'}>
             <View style={{ flex: 1, justifyContent: 'center', paddingHorizontal: 18 }}>
                 <View style={{ alignItems: 'center', marginBottom: 12 }}>
                     <Image source={Email} />

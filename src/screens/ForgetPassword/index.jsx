@@ -22,7 +22,7 @@ const SinginSchema = Yup.object().shape({
 const ForgetPassword = ({ navigation }) => {
     return (
 
-        <Container>
+        <Container backgroundColor={'#F8F9FA'}>
 
             <Formik
                 initialValues={initialValues}

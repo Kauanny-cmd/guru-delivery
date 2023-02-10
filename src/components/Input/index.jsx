@@ -1,6 +1,7 @@
 import { View, Text } from "react-native";
 import styles from "./styles";
 import { Input as InputUI } from "@rneui/themed";
+import { Icon } from "@rneui/base";
 
 
 const Input = ({
@@ -25,7 +26,7 @@ const Input = ({
                 onBlur={(e) => onBlur(e)}
                 value={value}
                 errorMessage={error}
-              
+
             />
         </View>
     );

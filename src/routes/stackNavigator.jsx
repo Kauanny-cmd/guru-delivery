@@ -2,18 +2,15 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import Colors from '../global/style'
 
-import Login from "../screens/Login";
-import Register from '../screens/Register';
-import ForgetPassword from '../screens/ForgetPassword';
-import EmailSend from '../screens/EmailSend';
-import Welcome from '../screens/Welcome';
+import Home from '../screens/Home';
+import Product from '../screens/Product';
 
 const Stack = createStackNavigator();
 
-const StackNavigator = () => {
+export const StackHomeScreen = () => {
     return (
 
-        <Stack.Navigator initialRouteName="Welcome"
+        <Stack.Navigator initialRouteName="Home"
             screenOptions={{
                 headerStyle: {
                     backgroundColor: Colors.whiteColor,
@@ -21,33 +18,16 @@ const StackNavigator = () => {
                 headerTintColor: Colors.primaryColor
             }}
         >
-            <Stack.Screen name="Login" component={Login}
-                options={{
-                    headerTitle: '',
-                }}
-            />
-            <Stack.Screen name='Register' component={Register}
-                options={{
-                    headerTitle: '',
-                }}
-            />
-            <Stack.Screen name='ForgetPassword' component={ForgetPassword}
-                options={{
-                    headerTitle: '',
-                }}
-            />
-            <Stack.Screen name='EmailSend' component={EmailSend}
-                options={{
-                    headerTitle: '',
-                }}
-            />
-            <Stack.Screen name='Welcome' component={Welcome}
+            <Stack.Screen name='Home' component={Home}
                 options={{
                     headerShown: false
+                }}
+            />
+            <Stack.Screen name='Product' component={Product}
+                options={{
+                    headerShown: false,
                 }}
             />
         </Stack.Navigator>
     );
 }
-
-export default StackNavigator;

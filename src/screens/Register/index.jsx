@@ -26,7 +26,7 @@ const SinginSchema = Yup.object().shape({
 const Register = ({ navigation }) => {
     return (
 
-        <Container>
+        <Container backgroundColor={'#F8F9FA'}>
 
             <Formik
                 initialValues={initialValues}
@@ -52,6 +52,7 @@ const Register = ({ navigation }) => {
                             error={errors.password && touched.password ? errors.password : undefined} password />
                         <TouchableOpacity style={{ marginTop: 12 }} onPress={() => handleSubmit()} >
                             <Button title="Cadastrar"
+                                onPress={() => navigation.navigate('Login')}
                                 colorButton={Colors.primaryColor}
                                 colorText={Colors.whiteColor}
                                 colorBorder={Colors.primaryColor}

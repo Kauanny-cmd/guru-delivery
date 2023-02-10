@@ -1,11 +1,11 @@
 import { SafeAreaView, Platform, StatusBar} from "react-native";
 
-const Container = ({children}) => {
+const Container = ({children, backgroundColor}) => {
     return (
         <SafeAreaView
             style={{
                 flex: 1,
-                backgroundColor: '#F8F9FA',
+                backgroundColor: backgroundColor,
                 paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0
             }}
         >

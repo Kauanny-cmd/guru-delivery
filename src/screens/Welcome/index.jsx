@@ -36,7 +36,7 @@ const Welcome = ({ navigation }) => {
                         colorBorder={Colors.primaryColor}
                     />
                     <Button title="Ver cardápio"
-                        onPress={() => navigation.navigate('Register')}
+                        onPress={() => navigation.navigate('Home')}
                         colorButton={Colors.whiteColor}
                         colorText={Colors.primaryColor}
                         colorBorder={Colors.primaryColor}
