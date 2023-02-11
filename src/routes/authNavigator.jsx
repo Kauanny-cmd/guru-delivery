@@ -7,7 +7,7 @@ import Register from '../screens/Register';
 import ForgetPassword from '../screens/ForgetPassword';
 import EmailSend from '../screens/EmailSend';
 import Welcome from '../screens/Welcome';
-import { DrawerNavigator } from './drawerNavigator';
+import { StackHomeScreen } from './stackNavigator';
 
 const Stack = createStackNavigator();
 
@@ -47,7 +47,7 @@ const AuthNavigator = () => {
                     headerShown: false
                 }}
             />
-            <Stack.Screen name='Home' component={DrawerNavigator}
+            <Stack.Screen name='Home' component={StackHomeScreen}
                 options={{
                     headerShown: false
                 }}
