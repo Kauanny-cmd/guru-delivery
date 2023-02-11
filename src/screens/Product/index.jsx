@@ -1,6 +1,6 @@
 import { View, Text, Image, TouchableOpacity } from "react-native";
 import { useState } from "react";
-import { color, Icon } from "@rneui/base";
+import { Icon } from "@rneui/base";
 
 import Button from '../../components/Button';
 
@@ -18,7 +18,7 @@ const Product = ({ navigation }) => {
     return (
         <>
             <View style={style.container}>
-                <View style={{ flexDirection: 'row', justifyContent: 'space-between', backgroundColor: Colors.primaryColor, alignItems:'center' }}>
+                <View style={{ flexDirection: 'row', justifyContent: 'space-between', backgroundColor: Colors.primaryColor, alignItems: 'center' }}>
                     <Icon
                         name="west"
                         type="material"

@@ -5,8 +5,7 @@ import Colors from '../global/style'
 import Home from '../screens/Home';
 import Product from '../screens/Product';
 import Bag from '../screens/Bag';
-
-import DrawerNavigator from './drawerNavigator'
+import Menu from '../screens/Menu';
 
 const Stack = createStackNavigator();
 
@@ -35,21 +34,7 @@ export const StackHomeScreen = () => {
                     headerShown: false,
                 }}
             />
-        </Stack.Navigator>
-    );
-}
-
-export const StackBagScreen = () => {
-    return (
-        <Stack.Navigator initialRouteName="Bag"
-            screenOptions={{
-                headerStyle: {
-                    backgroundColor: Colors.whiteColor,
-                },
-                headerTintColor: Colors.primaryColor
-            }}
-        >
-            <Stack.Screen name='Bag' component={Bag}
+            <Stack.Screen name='Menu' component={Menu}
                 options={{
                     headerShown: false,
                 }}

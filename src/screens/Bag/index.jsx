@@ -22,7 +22,7 @@ const Bag = ({ navigation }) => {
                         type="material"
                         size={16}
                         color={Colors.primaryColor}
-                        onPress={() => navigation.goBack()}
+                        onPress={() => navigation.navigate('Product')}
                         style={{
                             margin: 20,
                             borderRadius: 5,

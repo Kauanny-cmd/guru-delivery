@@ -1,5 +1,6 @@
 import { View, Image, Text, ScrollView, TouchableOpacity } from 'react-native';
 import { Shadow } from 'react-native-shadow-2';
+import { Icon } from "@rneui/base";
 
 import Container from '../../components/Container';
 import Input from '../../components/Input';
@@ -15,11 +16,28 @@ const Home = ({ navigation }) => {
             <Container style={{ backgroundColor: Colors.backgroundColorHome }}>
                 <View style={{ flex: 1, paddingHorizontal: 18 }}>
                     <View style={{ marginTop: 20 }}>
-                        <Text style={{ fontSize: 24, fontWeight: '500' }}> Seja Bem Vindo 👋 </Text>
-                        <Text style={{ color: Colors.grayText, marginBottom: 14, fontSize: 16 }}> O que deseja pra hoje?</Text>
+                        <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+                            <View>
+                                <Text style={{ fontSize: 24, fontWeight: '500' }}> Seja Bem Vindo 👋 </Text>
+                                <Text style={{ color: Colors.grayText, marginBottom: 14, fontSize: 16 }}> O que deseja pra hoje?</Text>
+                            </View>
+                            <Icon
+                                name="menu"
+                                type="material"
+                                size={26}
+                                color={Colors.primaryColor}
+                                onPress={() => navigation.navigate('Menu')}
+                                style={{
+                                    borderRadius: 5,
+                                    position: "relative",
+                                    display: "flex",
+                                    alignItems: "flex-start",
+                                    padding: 16,
+                                }}
+                            />
+                        </View>
                         <Input
-                            placeholder={'Pesquisar'}
-                        />
+                            placeholder={'Pesquisar'}                        />
 
                     </View>
 
@@ -42,13 +60,13 @@ const Home = ({ navigation }) => {
                     <View style={style.produtos}>
 
                         <TouchableOpacity>
-                                <Cards
-                                    colorText={Colors.primaryColor}
-                                    type='Tradicional'
-                                    name="Texas Burger"
-                                    price='R$ 25,50'
-                                    img={require('../../../assets/TexasBurger.png')}
-                                />
+                            <Cards
+                                colorText={Colors.primaryColor}
+                                type='Tradicional'
+                                name="Texas Burger"
+                                price='R$ 25,50'
+                                img={require('../../../assets/TexasBurger.png')}
+                            />
                         </TouchableOpacity>
 
 
