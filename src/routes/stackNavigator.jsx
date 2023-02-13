@@ -6,6 +6,7 @@ import Home from '../screens/Home';
 import Product from '../screens/Product';
 import Bag from '../screens/Bag';
 import Menu from '../screens/Menu';
+import Requests from '../screens/Requests'
 
 const Stack = createStackNavigator();
 
@@ -35,6 +36,12 @@ export const StackHomeScreen = () => {
                 }}
             />
             <Stack.Screen name='Menu' component={Menu}
+                options={{
+                    headerShown: false,
+                }}
+            />
+
+            <Stack.Screen name='Requests' component={Requests}
                 options={{
                     headerShown: false,
                 }}
