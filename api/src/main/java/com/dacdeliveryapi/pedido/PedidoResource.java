@@ -1,10 +1,10 @@
-package com.github.williamjbf.dacdeliveryapi.pedido;
+package com.dacdeliveryapi.pedido;
 
-import com.github.williamjbf.dacdeliveryapi.pedido.dto.PedidoDto;
-import com.github.williamjbf.dacdeliveryapi.pedido.model.Pedido;
-import com.github.williamjbf.dacdeliveryapi.pedido.model.StatusPedido;
-import com.github.williamjbf.dacdeliveryapi.pedido.repository.PedidoRepository;
-import com.github.williamjbf.dacdeliveryapi.pedido.service.PedidoService;
+import com.dacdeliveryapi.pedido.dto.PedidoDto;
+import com.dacdeliveryapi.pedido.model.Pedido;
+import com.dacdeliveryapi.pedido.model.StatusPedido;
+import com.dacdeliveryapi.pedido.repository.PedidoRepository;
+import com.dacdeliveryapi.pedido.service.PedidoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

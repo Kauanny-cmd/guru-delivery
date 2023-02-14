@@ -1,4 +1,4 @@
-package com.github.williamjbf.dacdeliveryapi.item.service;
+package com.dacdeliveryapi.item.service;
 
 import org.springframework.stereotype.Service;
 

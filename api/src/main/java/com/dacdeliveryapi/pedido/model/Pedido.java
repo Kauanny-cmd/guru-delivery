@@ -1,7 +1,7 @@
-package com.github.williamjbf.dacdeliveryapi.pedido.model;
+package com.dacdeliveryapi.pedido.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.github.williamjbf.dacdeliveryapi.endereco.model.Endereco;
+import com.dacdeliveryapi.endereco.model.Endereco;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;

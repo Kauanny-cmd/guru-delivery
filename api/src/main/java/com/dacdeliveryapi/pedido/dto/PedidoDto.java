@@ -1,6 +1,6 @@
-package com.github.williamjbf.dacdeliveryapi.pedido.dto;
+package com.dacdeliveryapi.pedido.dto;
 
-import com.github.williamjbf.dacdeliveryapi.pedido.model.*;
+import com.dacdeliveryapi.pedido.model.*;
 import lombok.Data;
 
 import java.util.ArrayList;

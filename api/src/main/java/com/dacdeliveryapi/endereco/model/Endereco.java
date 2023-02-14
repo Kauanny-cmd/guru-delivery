@@ -1,4 +1,4 @@
-package com.github.williamjbf.dacdeliveryapi.endereco.model;
+package com.dacdeliveryapi.endereco.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;

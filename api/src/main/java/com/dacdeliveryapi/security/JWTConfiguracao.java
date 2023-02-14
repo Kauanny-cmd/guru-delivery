@@ -1,6 +1,6 @@
-package com.github.williamjbf.dacdeliveryapi.security;
+package com.dacdeliveryapi.security;
 
-import com.github.williamjbf.dacdeliveryapi.cliente.service.DetalheClienteServiceImpl;
+import com.dacdeliveryapi.cliente.service.DetalheClienteServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

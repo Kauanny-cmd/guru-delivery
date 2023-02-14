@@ -1,8 +1,8 @@
-package com.github.williamjbf.dacdeliveryapi.item;
+package com.dacdeliveryapi.item;
 
-import com.github.williamjbf.dacdeliveryapi.item.model.Item;
-import com.github.williamjbf.dacdeliveryapi.item.model.Item;
-import com.github.williamjbf.dacdeliveryapi.item.repository.ItemRepository;
+import com.dacdeliveryapi.item.model.Item;
+import com.dacdeliveryapi.item.model.Item;
+import com.dacdeliveryapi.item.repository.ItemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

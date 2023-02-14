@@ -1,4 +1,4 @@
-package com.github.williamjbf.dacdeliveryapi;
+package com.dacdeliveryapi;
 
 import com.bedatadriven.jackson.datatype.jts.JtsModule;
 import org.springframework.boot.SpringApplication;

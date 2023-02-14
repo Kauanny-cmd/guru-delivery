@@ -1,8 +1,8 @@
-package com.github.williamjbf.dacdeliveryapi.empresa.cardapio.model;
+package com.dacdeliveryapi.empresa.cardapio.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.github.williamjbf.dacdeliveryapi.empresa.model.Empresa;
-import com.github.williamjbf.dacdeliveryapi.item.model.Item;
+import com.dacdeliveryapi.empresa.model.Empresa;
+import com.dacdeliveryapi.item.model.Item;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package com.github.williamjbf.dacdeliveryapi.item.dto;
+package com.dacdeliveryapi.item.dto;
 
 public class ItemDto {
 }

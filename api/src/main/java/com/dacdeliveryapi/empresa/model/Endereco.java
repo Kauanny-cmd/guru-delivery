@@ -1,4 +1,4 @@
-package com.github.williamjbf.dacdeliveryapi.empresa.model;
+package com.dacdeliveryapi.empresa.model;
 
 import com.vividsolutions.jts.geom.Geometry;
 import lombok.Data;

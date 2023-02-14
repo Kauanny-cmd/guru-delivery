@@ -1,4 +1,4 @@
-package com.github.williamjbf.dacdeliveryapi.security;
+package com.dacdeliveryapi.security;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;

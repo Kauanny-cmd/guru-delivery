@@ -1,7 +1,7 @@
-package com.github.williamjbf.dacdeliveryapi.empresa.model;
+package com.dacdeliveryapi.empresa.model;
 
-import com.github.williamjbf.dacdeliveryapi.empresa.cardapio.model.Cardapio;
-import com.github.williamjbf.dacdeliveryapi.pedido.model.Pedido;
+import com.dacdeliveryapi.empresa.cardapio.model.Cardapio;
+import com.dacdeliveryapi.pedido.model.Pedido;
 import lombok.Data;
 
 import javax.persistence.*;

@@ -1,8 +1,8 @@
-package com.github.williamjbf.dacdeliveryapi.cliente.model;
+package com.dacdeliveryapi.cliente.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.github.williamjbf.dacdeliveryapi.endereco.model.Endereco;
-import com.github.williamjbf.dacdeliveryapi.pedido.model.Pedido;
+import com.dacdeliveryapi.endereco.model.Endereco;
+import com.dacdeliveryapi.pedido.model.Pedido;
 import lombok.Data;
 
 import javax.persistence.*;

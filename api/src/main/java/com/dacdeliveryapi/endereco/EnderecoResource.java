@@ -1,8 +1,8 @@
-package com.github.williamjbf.dacdeliveryapi.endereco;
+package com.dacdeliveryapi.endereco;
 
-import com.github.williamjbf.dacdeliveryapi.endereco.model.Endereco;
-import com.github.williamjbf.dacdeliveryapi.endereco.repository.EnderecoRepository;
-import com.github.williamjbf.dacdeliveryapi.endereco.service.EnderecoService;
+import com.dacdeliveryapi.endereco.model.Endereco;
+import com.dacdeliveryapi.endereco.repository.EnderecoRepository;
+import com.dacdeliveryapi.endereco.service.EnderecoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

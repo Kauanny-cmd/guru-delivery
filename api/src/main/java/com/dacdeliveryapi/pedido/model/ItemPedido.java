@@ -1,8 +1,8 @@
-package com.github.williamjbf.dacdeliveryapi.pedido.model;
+package com.dacdeliveryapi.pedido.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.github.williamjbf.dacdeliveryapi.item.model.Item;
+import com.dacdeliveryapi.item.model.Item;
 import lombok.Data;
 
 import javax.persistence.*;

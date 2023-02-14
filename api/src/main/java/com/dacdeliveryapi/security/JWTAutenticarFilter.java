@@ -1,11 +1,11 @@
-package com.github.williamjbf.dacdeliveryapi.security;
+package com.dacdeliveryapi.security;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTCreator;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.williamjbf.dacdeliveryapi.cliente.DetalheClienteData;
-import com.github.williamjbf.dacdeliveryapi.cliente.model.Cliente;
+import com.dacdeliveryapi.cliente.DetalheClienteData;
+import com.dacdeliveryapi.cliente.model.Cliente;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

@@ -1,4 +1,4 @@
-package com.github.williamjbf.dacdeliveryapi.pedido.model;
+package com.dacdeliveryapi.pedido.model;
 
 import lombok.Getter;
 

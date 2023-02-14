@@ -1,9 +1,9 @@
-package com.github.williamjbf.dacdeliveryapi.empresa.service;
+package com.dacdeliveryapi.empresa.service;
 
-import com.github.williamjbf.dacdeliveryapi.empresa.cardapio.model.Cardapio;
-import com.github.williamjbf.dacdeliveryapi.empresa.cardapio.repository.CardapioRepository;
-import com.github.williamjbf.dacdeliveryapi.empresa.model.Empresa;
-import com.github.williamjbf.dacdeliveryapi.empresa.repository.EmpresaRepository;
+import com.dacdeliveryapi.empresa.model.Empresa;
+import com.dacdeliveryapi.empresa.cardapio.model.Cardapio;
+import com.dacdeliveryapi.empresa.cardapio.repository.CardapioRepository;
+import com.dacdeliveryapi.empresa.repository.EmpresaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;

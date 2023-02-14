@@ -1,6 +1,6 @@
-package com.github.williamjbf.dacdeliveryapi.cliente;
+package com.dacdeliveryapi.cliente;
 
-import com.github.williamjbf.dacdeliveryapi.cliente.model.Cliente;
+import com.dacdeliveryapi.cliente.model.Cliente;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 

@@ -1,6 +1,6 @@
-package com.github.williamjbf.dacdeliveryapi.item.repository;
+package com.dacdeliveryapi.item.repository;
 
-import com.github.williamjbf.dacdeliveryapi.item.model.Item;
+import com.dacdeliveryapi.item.model.Item;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

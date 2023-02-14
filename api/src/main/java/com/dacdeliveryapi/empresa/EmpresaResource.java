@@ -1,8 +1,8 @@
-package com.github.williamjbf.dacdeliveryapi.empresa;
+package com.dacdeliveryapi.empresa;
 
-import com.github.williamjbf.dacdeliveryapi.empresa.model.Empresa;
-import com.github.williamjbf.dacdeliveryapi.empresa.repository.EmpresaRepository;
-import com.github.williamjbf.dacdeliveryapi.empresa.service.EmpresaService;
+import com.dacdeliveryapi.empresa.model.Empresa;
+import com.dacdeliveryapi.empresa.repository.EmpresaRepository;
+import com.dacdeliveryapi.empresa.service.EmpresaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,8 +1,8 @@
-package com.github.williamjbf.dacdeliveryapi.cliente.service;
+package com.dacdeliveryapi.cliente.service;
 
-import com.github.williamjbf.dacdeliveryapi.cliente.DetalheClienteData;
-import com.github.williamjbf.dacdeliveryapi.cliente.model.Cliente;
-import com.github.williamjbf.dacdeliveryapi.cliente.repository.ClienteRepository;
+import com.dacdeliveryapi.cliente.DetalheClienteData;
+import com.dacdeliveryapi.cliente.model.Cliente;
+import com.dacdeliveryapi.cliente.repository.ClienteRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

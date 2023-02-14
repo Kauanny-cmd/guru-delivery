@@ -1,12 +1,12 @@
-package com.github.williamjbf.dacdeliveryapi.pedido.service;
+package com.dacdeliveryapi.pedido.service;
 
-import com.github.williamjbf.dacdeliveryapi.endereco.repository.EnderecoRepository;
-import com.github.williamjbf.dacdeliveryapi.item.model.Item;
-import com.github.williamjbf.dacdeliveryapi.item.repository.ItemRepository;
-import com.github.williamjbf.dacdeliveryapi.pedido.dto.PedidoDto;
-import com.github.williamjbf.dacdeliveryapi.pedido.model.*;
-import com.github.williamjbf.dacdeliveryapi.pedido.repository.ItemPedidoRepository;
-import com.github.williamjbf.dacdeliveryapi.pedido.repository.PedidoRepository;
+import com.dacdeliveryapi.endereco.repository.EnderecoRepository;
+import com.dacdeliveryapi.item.model.Item;
+import com.dacdeliveryapi.item.repository.ItemRepository;
+import com.dacdeliveryapi.pedido.dto.PedidoDto;
+import com.dacdeliveryapi.pedido.model.*;
+import com.dacdeliveryapi.pedido.repository.ItemPedidoRepository;
+import com.dacdeliveryapi.pedido.repository.PedidoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
